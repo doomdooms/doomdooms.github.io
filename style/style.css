@@ -14,6 +14,7 @@ hr {
 }
 .page1 {
     margin-top: 30vh;
+    padding-bottom: 50vh;
 }
 .neon {
     display: flex;
@@ -28,7 +29,7 @@ hr {
 
 .neon:hover {
     color: #fb738f;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .description {
@@ -40,6 +41,23 @@ hr {
     align-items:center;
     font-family: 'Roboto', sans-serif;
     color: #d6d6d6;
+}
+
+.wrapper {
+    background-color: #252525;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    margin: 1.5vw;
+    align-self: center;
+    max-width: 25vw;
+    width: 100%;
+    height: 25vw;
+    background-color: #77d7b9;
 }
 
 /*.wrapper {*/

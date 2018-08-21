@@ -54,11 +54,16 @@ hr {
     display: flex;
     margin: 1.5vw;
     align-self: center;
-    max-width: 25vw;
-    width: 100%;
+    width: 25vw;
     height: 25vw;
-    background-color: #77d7b9;
+    background-image: url("coding.jpg");
+    background-size: cover;
 }
+
+/*.project img {*/
+    /*width: 100%;*/
+    /*border-radius: 10px;*/
+/*}*/
 
 /*.wrapper {*/
     /*padding-top: 0;*/

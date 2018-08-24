@@ -12,12 +12,14 @@ hr {
     background-color: #ff375a;
     border-width: 0;
     height: 10px;
-    margin: 1vh 85vw 0 3vw;
+    margin: 1vh 85vw 0 0vw;
 
 }
 .page1 {
     margin-top: 22vh;
     padding-bottom: 50vh;
+    margin-left: 4vw;
+
 }
 .neon {
     display: flex;
@@ -25,24 +27,23 @@ hr {
     align-items:left;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    margin-left: 3vw;
     color: #131313;
     font-size: 9vw;
     line-height: 9vw;
 }
 
-#des_1 {
+.topic {
     font-size: 3vh;
     margin-bottom: 0.5vh;
+    font-family: 'Raleway', sans-serif;
     font-style: italic;
 }
 
 .description {
     margin-top: 1.5vh;
-    margin-left: 3vw;
     margin-right: 50vw;
     text-align: left;
-    font-size: 2.3vh;
+    font-size: 1vw;
     display: flex;
     flex-direction: column;
     align-items:left;
@@ -52,13 +53,6 @@ hr {
 }
 .description p {
     margin-top: 0;
-}
-
-.wrapper {
-    background-color: #252525;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
 }
 
 .project {
@@ -71,30 +65,61 @@ hr {
     background-size: cover;
 }
 
-/*.project img {*/
-    /*width: 100%;*/
-    /*border-radius: 10px;*/
-/*}*/
+.btns {
+    display: flex;
+    align-items: flex-start;
+}
 
-/*.wrapper {*/
-    /*padding-top: 0;*/
-    /*text-align: center;*/
-    /*color: #131313;*/
-/*}*/
-/*._button{*/
-    /*display:inline-block;*/
-    /*padding:0.3em 1.2em;*/
-    /*margin:0 0.3em 0.3em 0;*/
-    /*border-radius:2em;*/
-    /*box-sizing: border-box;*/
-    /*text-decoration:none;*/
-    /*color:#FFFFFF;*/
-    /*background-color: #ff4a4d;*/
-    /*text-align:center;*/
-    /*transition: all 0.2s;*/
-    /*font-size: 2em;*/
-/*}*/
+#gitBtn img{
+    width: 40px;
+    height: 40px;
+    margin-left: 2vh;
+}
 
-/*._button:hover{*/
-    /*background-color: #dc4143;*/
-/*}*/
+._button{
+    margin-top: 0;
+    font-size: 15px;
+    padding: 0.5em;
+    border: 2px solid #ff375a;
+    border-radius: 1vw;
+    font-family: 'Raleway', sans-serif;
+    color: #ff375a;
+    alignment: top;
+}
+
+._button:hover{
+    background-color: #ff375a;
+    color: white;
+}
+
+.page2 {
+    height: 150vh;
+    font-family: 'Raleway', sans-serif;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vh;
+}
+.projects img {
+    margin-left: 0;
+    width: 500px;
+    height: 250px;
+}
+.projects h1 {
+    margin-bottom: 0;
+}
+.projects div {
+    margin-left: 3vw;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    padding-left: 3vw;
+    padding-bottom: 2vh;
+    top: 0;
+    background-image: linear-gradient(white, rgba(0,0,0,0));
+}
+#Proj-title {
+    font-size: 7vw;
+}

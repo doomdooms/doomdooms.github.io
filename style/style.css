@@ -33,7 +33,7 @@ hr {
 }
 
 .topic {
-    font-size: 3vh;
+    font-size: 1.5em;
     margin-bottom: 0.5vh;
     font-family: 'Raleway', sans-serif;
     font-style: italic;
@@ -43,7 +43,7 @@ hr {
     margin-top: 1.5vh;
     margin-right: 50vw;
     text-align: left;
-    font-size: 1vw;
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     align-items:left;

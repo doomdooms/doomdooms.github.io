@@ -96,6 +96,7 @@ hr {
 .page2 {
     height: 150vh;
     font-family: 'Raleway', sans-serif;
+    margin-right: 10%;
 }
 .projects {
     display: flex;

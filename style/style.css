@@ -3,9 +3,6 @@
 body {
     background-color: #f8f8f8;
     width: 100%;
-    /*background: url('background.jpg') no-repeat center center fixed ;*/
-    /*background-size: cover;*/
-    /*height: 100vh;*/
 }
 
 hr {
@@ -124,4 +121,8 @@ hr {
 }
 #Proj-title {
     font-size: 7vw;
+}
+#contact {
+    margin: 10%;
+    text-align: center;
 }

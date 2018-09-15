@@ -91,8 +91,9 @@ hr {
 }
 
 .page2 {
-    height: 120vh;
+    height: 100vh;
     font-family: 'Raleway', sans-serif;
+    padding-bottom: 20rem;
 }
 .projects {
     display: flex;
@@ -120,10 +121,8 @@ hr {
     background: linear-gradient(white, rgba(0,0,0,0));
     background: -webkit-linear-gradient(white, rgba(0,0,0,0));
 }
-#Proj-title {
-    font-size: 7vw;
+
+.page3 {
+    display: none;
 }
-#contact {
-    margin: 10%;
-    text-align: center;
-}
+

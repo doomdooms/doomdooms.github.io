@@ -91,7 +91,7 @@ hr {
 }
 
 .page2 {
-    height: 150vh;
+    height: 100vh;
     font-family: 'Raleway', sans-serif;
 }
 .projects {
@@ -117,7 +117,8 @@ hr {
     padding-left: 3vw;
     padding-bottom: 2vh;
     top: 0;
-    background-image: linear-gradient(white, rgba(0,0,0,0));
+    background: linear-gradient(white, rgba(0,0,0,0));
+    background: -webkit-linear-gradient(white, rgba(0,0,0,0));
 }
 #Proj-title {
     font-size: 7vw;
